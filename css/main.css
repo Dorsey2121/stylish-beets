@@ -1,17 +1,21 @@
 html {
   background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
 }
 
 h1 {
   font-family: 'PT Sans', sans-serif;
+  color: ***
 }
 
 nav ol {
   font-family: 'PT Sans', sans-serif;
+  color***
 }
 
 h2 {
   font-family: 'PT Sans', sans-serif;
+  color***
 }
 
 img {
@@ -19,7 +23,6 @@ img {
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
   font-style: italic;
 }
 
@@ -29,4 +32,31 @@ a {
 
 a:hover {
   color: */find currentColor;
+}
+
+article p:first-child {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+dl dt:first-child {
+  font-style: italic;
+}
+
+dl dd:first-child {
+  font-style: italic;
+}
+
+ul li {
+  font-size: 0.8rem;
 }
