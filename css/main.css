@@ -1,3 +1,6 @@
 html {
-  background-color: ##c9b5ab;
+  background-color: #c9b5ab;
+}
+h1, nav, h2 {
+  font: pt sans, sans serif;
 }
