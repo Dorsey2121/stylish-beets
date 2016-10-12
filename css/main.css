@@ -1,8 +1,32 @@
 html {
   background-color: #c9b5ab;
 }
-h1 nav h2 {
+
+h1 {
   font-family: 'PT Sans', sans-serif;
 }
 
-font-family: 'PT Serif', serif;
+nav ol {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+a {
+  color: */ find a currentColor;
+}
+
+a:hover {
+  color: */find currentColor;
+}
