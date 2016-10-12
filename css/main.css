@@ -5,17 +5,19 @@ html {
 
 h1 {
   font-family: 'PT Sans', sans-serif;
-  color: ***
+  font-weight: bold;
+  color: #3f1622;
 }
 
 nav ol {
   font-family: 'PT Sans', sans-serif;
-  color***
+  font-size: 1.125rem;
+  color: #3f1622;
 }
 
 h2 {
   font-family: 'PT Sans', sans-serif;
-  color***
+  color: #3f1622;
 }
 
 img {
@@ -27,11 +29,11 @@ figcaption {
 }
 
 a {
-  color: */ find a currentColor;
+  color: #8f2440;
 }
 
 a:hover {
-  color: */find currentColor;
+  color: #3f1622
 }
 
 article p:first-child {
