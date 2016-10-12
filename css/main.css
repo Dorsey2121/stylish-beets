@@ -77,10 +77,14 @@ aside ul li {
   list-style-type: circle;
 }
 
-ol {
-  list-style-type: lower-greek;
-}
-
 nav ol {
   list-style-type: none;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.varieties {
+  list-style-type: lower-greek;;
 }
