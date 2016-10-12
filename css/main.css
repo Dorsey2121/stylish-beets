@@ -1,6 +1,7 @@
 html {
   background-color: #c9b5ab;
   font-family: 'PT Serif', serif;
+  line-height: 1.5;
 }
 
 h1 {
@@ -9,10 +10,10 @@ h1 {
   color: #3f1622;
 }
 
-nav ol {
+nav ol li a {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.125rem;
-  color: #3f1622;
+  color: #8f2440;
 }
 
 h2 {
@@ -26,6 +27,7 @@ img {
 
 figcaption {
   font-style: italic;
+  text-align: center;
 }
 
 a {
@@ -41,24 +43,44 @@ article p:first-child {
   font-weight: bold;
 }
 
-blockquote {
+blockquote p{
   font-size: 1.5rem;
   font-style: italic;
-}
+  }
 
 blockquote cite {
   font-size: 0.8rem;
   font-style: italic;
 }
 
+dl dt {
+  font-weight: bold;
+}
 dl dt:first-child {
   font-style: italic;
 }
 
 dl dd:first-child {
   font-style: italic;
+
 }
 
 ul li {
   font-size: 0.8rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+aside ul li {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+nav ol {
+  list-style-type: none;
 }
