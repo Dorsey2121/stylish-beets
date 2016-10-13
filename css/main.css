@@ -1,23 +1,27 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+}
+
+body {
   line-height: 1.5;
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
   color: #3f1622;
 }
 
 nav ol li a {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  font-size: 1.25rem;
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
@@ -32,30 +36,28 @@ figcaption {
 
 a {
   color: #8f2440;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #3f1622
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 article p:first-child {
   font-size: 1.125rem;
-  font-weight: bold;
 }
 
-blockquote p{
+blockquote p {
   font-size: 1.5rem;
   font-style: italic;
-  }
+}
 
 blockquote cite {
   font-size: 0.8rem;
   font-style: italic;
 }
 
-dl dt {
-  font-weight: bold;
-}
 dl dt:first-child {
   font-style: italic;
 }
@@ -86,5 +88,9 @@ nav ol {
 }
 
 .varieties {
-  list-style-type: lower-greek;;
+  list-style-type: lower-greek;
+}
+
+strong {
+  font-weight: normal;
 }
